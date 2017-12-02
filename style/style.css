@@ -152,8 +152,9 @@ ol li
 
 #menubar
 { color: black;
-  width: 900px;
-  height: 46px;} 
+  width: 1000px;
+  height: 46px;
+  font-size: 120%;} 
 
 ul#menu
 { color: black;
@@ -295,7 +296,8 @@ ul#menu li a:hover
 
 #footer p
 { line-height: 1.7em;
-  padding: 0 0 10px 0;}
+  padding: 0 0 10px 0;
+  font-size: 130%}
 
 #footer a
 { color: #388E8E;
@@ -386,7 +388,7 @@ table tr td
     display: none;}
 
 #Estuarium_intro
-{background-color: skyblue;}
+{background-color: #388E8E;}
 
  /* Fadein SCROLL TO TOP BEGIN */
 
