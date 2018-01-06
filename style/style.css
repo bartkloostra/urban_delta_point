@@ -91,15 +91,40 @@ ol li
 
 #main, #logo, #menubar, #site_content, #footer
 { margin-left: auto; 
-  margin-right: auto;}
+  margin-right: auto;
+}
 
-#header
+#header_index
 { background: #1d1d1d url(Lissabon/Header_Lissabon.png) no-repeat center fixed;
   background-size: cover;
-  border-bottom: 0.05px solid #FFF;
-  height: 100vh;
+  border-bottom: 0.05px solid #000;
+  transition: border .5s ease-in-out,color .5s ease-in-out;
+  height: 1000px;
   width: 100%;}
 
+#header_venetie
+{ background: #FFF url(Venetie/venetie_grijs_1.png) no-repeat center fixed;
+  background-size: cover;
+  border-bottom: 0.05px solid #000;
+  transition: border .5s ease-in-out,color .5s ease-in-out;
+  height: 1000px;
+  background-color: rgba(4, 4, 4, 0.5);
+  width: 100%;
+  background-position: top;
+}
+
+#center-field 
+{ background: center fixed;
+  background-size: cover;
+  border-bottom: 0.05px solid #000;
+  transition: border .5s ease-in-out,color .5s ease-in-out;
+  height: 1000px;
+  background-color: rgba(4, 4, 4, 0.5);
+  width: 100%;
+  background-position: top;
+    
+    
+}
 
   /*
 #banner
@@ -112,8 +137,10 @@ ol li
 
 
 #map { 
-  height: 500px; 
+  height: 600px;  
+  background-color: white;
   width:150%;
+  
 } 
 
 #logo
@@ -140,7 +167,7 @@ ol li
   text-decoration: none;}
 
 #logo_text h1 a .logo_colour
-{ color: #000;}
+{ color: #f69739;}
 
 #logo_text a:hover .logo_colour
 { color: #FFF;}
@@ -152,13 +179,15 @@ ol li
 
 #menubar
 { color: black;
-  width: 1000px;
+  width: 70%;
   height: 46px;
-  font-size: 120%;} 
+  font-size: 120%;
+  
+} 
 
 ul#menu
 { color: black;
-  float: middle
+  float
   margin: 0;}
 
 ul#menu li
@@ -172,10 +201,10 @@ ul#menu li
 ul#menu li a
 { font: normal 100% 'trebuchet ms', sans-serif;
   display: block; 
-  float: middle 
+  float: middle
   height: 20px;
   padding: 6px 35px 5px 28px;
-  text-align: middle;
+  text-align: cen;
   color: #fff;
   text-decoration: none;
   background: transparent;} 
@@ -189,7 +218,7 @@ ul#menu li.selected
   background: #388E8E;}
 
 ul#menu li.selected a, ul#menu li.selected a:hover
-{ background: #388E8E;
+{ background: #f69739;
   color: #FFF;}
 
 ul#menu li a:hover
@@ -215,16 +244,38 @@ ul#menu li a:hover
 /* Line Below Menu Items EINDE---- */
 
 
+#anekdote {
+    font-size: 600%;
+    font: DIN pro;
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+    padding-right: center;
+}
+
+#anekdote_2 {
+    font-size: 250%;
+    text-align: center;
+    color: white;
+    padding-right: center;
+    
+}
 
 #Intro_1 {
     width: 600px;
     overflow: hidden;
     text-align: center;
-    margin: 400px auto auto ;
+    margin: 400px auto auto;
     font-size: 120%;
     color: white;
     background-color: rgba(4, 4, 4, 0.5);
     vertical-align: middle;
+    margin-left: 60%;
+    padding-top: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    
     
     }
 
@@ -288,15 +339,23 @@ ul#menu li a:hover
   font-family: 'trebuchet ms', sans-serif;
   font-size: 100%;
   height: 80px;
-  padding: 28px 0 5px 0;
+  padding: 22px 0 10px 0;
   text-align: center; 
   background: transparent url(pattern.png) repeat;
   border-top: 2px solid #388E8E;
-  color: #FFF;}
+  color: #FFF;
+  bottom: 0;
+  position: absolut;
+}
+
+#content_footer{
+    bottom: 0;
+    position: absolute;
+}
 
 #footer p
 { line-height: 1.7em;
-  padding: 0 0 10px 0;
+  padding: 0 0 0px 0;
   font-size: 130%}
 
 #footer a
@@ -306,6 +365,18 @@ ul#menu li a:hover
 #footer a:hover
 { color: #FFF;
   text-decoration: none;}
+
+#footer_urbandeltas{
+  width: 100%;
+  font-family: 'trebuchet ms', sans-serif;
+  font-size: 100%;
+  height: 100%;
+  text-align: center; 
+  background: transparent url(pattern.png) repeat;
+  color: #FFF;
+  padding-bottom: 10px;
+  
+  }
 
 .search
 { color: #5D5D5D; 
@@ -388,8 +459,23 @@ table tr td
     display: none;}
 
 #Estuarium_intro
-{background-color: #388E8E;}
+{background-color: #;}
 
+.carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0px;
+}
+
+#index_alinea{
+    font-size: 120%;
+}
  /* Fadein SCROLL TO TOP BEGIN */
 
 /*
