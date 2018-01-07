@@ -113,6 +113,22 @@ ol li
   background-position: top;
 }
 
+#header_about_us
+{ background: #1d1d1d url(Lissabon/Header_Lissabon.png) no-repeat center fixed;
+  background-size: cover;
+  border-bottom: 0.05px solid #000;
+  transition: border .5s ease-in-out,color .5s ease-in-out;
+  height: 300px;
+  width: 100%;}
+
+#header_contact
+{ background: #1d1d1d url(Lissabon/Header_Lissabon.png) no-repeat center fixed;
+  background-size: cover;
+  border-bottom: 0.05px solid #000;
+  transition: border .5s ease-in-out,color .5s ease-in-out;
+  height: 300px;
+  width: 100%;}
+
 #center-field 
 { background: center fixed;
   background-size: cover;
